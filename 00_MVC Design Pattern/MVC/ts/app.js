@@ -17,4 +17,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
         return studentObj;
     }
 });
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=weatherStationApp.js.map
