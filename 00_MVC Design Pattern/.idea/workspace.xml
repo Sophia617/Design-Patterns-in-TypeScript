@@ -65,9 +65,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="46" />
-    <option name="y" value="181" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="424" />
+    <option name="y" value="76" />
     <option name="width" value="1317" />
     <option name="height" value="672" />
   </component>
@@ -83,17 +83,6 @@
             <path>
               <item name="MVC Design Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="MVC Design Pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVC Design Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MVC Design Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVC Design Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MVC Design Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC" type="462c0819:PsiDirectoryNode" />
-              <item name="ts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,16 +124,15 @@
       <updated>1531313353031</updated>
       <workItem from="1531313354444" duration="199000" />
       <workItem from="1531313627904" duration="68000" />
-      <workItem from="1531401703330" duration="2346000" />
+      <workItem from="1531401703330" duration="2351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2613000" />
+    <option name="totallyTimeSpent" value="2618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="181" width="1317" height="672" extended-state="1" />
-    <editor active="true" />
+    <frame x="424" y="76" width="1317" height="672" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
