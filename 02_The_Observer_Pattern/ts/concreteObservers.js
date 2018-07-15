@@ -1,11 +1,12 @@
 // Display View 1
 var CurrentConditionsDisplay = /** @class */ (function () {
     function CurrentConditionsDisplay(weatherData) {
+        this.weatherData = weatherData;
     }
-    CurrentConditionsDisplay.prototype.update = function (temp, humidity, pressure) {
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    CurrentConditionsDisplay.prototype.update = function () {
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     };
     CurrentConditionsDisplay.prototype.display = function () {
@@ -16,11 +17,12 @@ var CurrentConditionsDisplay = /** @class */ (function () {
 // Display View 2
 var StatisticsDisplay = /** @class */ (function () {
     function StatisticsDisplay(weatherData) {
+        this.weatherData = weatherData;
     }
-    StatisticsDisplay.prototype.update = function (temp, humidity, pressure) {
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    StatisticsDisplay.prototype.update = function () {
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     };
     StatisticsDisplay.prototype.display = function () {
@@ -31,11 +33,12 @@ var StatisticsDisplay = /** @class */ (function () {
 // Display View 3
 var ForecastDisplay = /** @class */ (function () {
     function ForecastDisplay(weatherData) {
+        this.weatherData = weatherData;
     }
-    ForecastDisplay.prototype.update = function (temp, humidity, pressure) {
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    ForecastDisplay.prototype.update = function () {
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     };
     ForecastDisplay.prototype.display = function () {

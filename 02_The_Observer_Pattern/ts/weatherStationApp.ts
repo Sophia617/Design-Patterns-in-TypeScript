@@ -3,15 +3,16 @@ document.addEventListener('DOMContentLoaded', function(event){
     // Create Weather Data Object
     let weatherData: WeatherData = new WeatherData();
     
-    // Create the three displays and pass them the weather data object
+    // Instantiate the three Displays and in the construction we pass the weather data object
+    // when there is new change concrete Observers (display obj) will be able to access to the weather Data
     let currentConditionsDisplay: CurrentConditionsDisplay = new CurrentConditionsDisplay (weatherData);
     let statisticsDisplay: StatisticsDisplay = new StatisticsDisplay(weatherData);
-    let forecaseDisplay: ForecastDisplay = new ForecastDisplay(weatherData);
+    let forecastDisplay: ForecastDisplay = new ForecastDisplay(weatherData);
     
     // Register Observer to Subject
     weatherData.registerObserver(currentConditionsDisplay);
     weatherData.registerObserver(statisticsDisplay);
-    weatherData.registerObserver(forecaseDisplay);
+    weatherData.registerObserver(forecastDisplay);
     
     
     // Simulate new weather measurements

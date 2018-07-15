@@ -33,8 +33,19 @@ class WeatherData implements Subject {
     // Because they are all IObserver, we know they all implement update(), so we know how to notify them
     public notifyObserver(): void{
         for (let observer of this.observers){
-           observer.update(this.temperature,this.humidity,this.pressure);
+           observer.update();
         }
+    }
+    
+    // Get current data
+    public getTemp(){
+        return this.temperature;
+    }
+    public getHumidity(){
+        return this.temperature;
+    }
+    public getPressure(){
+        return this.temperature;
     }
     
     // Method to test our display elements

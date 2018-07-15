@@ -18,8 +18,18 @@ var WeatherData = /** @class */ (function () {
     WeatherData.prototype.notifyObserver = function () {
         for (var _i = 0, _a = this.observers; _i < _a.length; _i++) {
             var observer = _a[_i];
-            observer.update(this.temperature, this.humidity, this.pressure);
+            observer.update();
         }
+    };
+    // Get current data
+    WeatherData.prototype.getTemp = function () {
+        return this.temperature;
+    };
+    WeatherData.prototype.getHumidity = function () {
+        return this.temperature;
+    };
+    WeatherData.prototype.getPressure = function () {
+        return this.temperature;
     };
     // Method to test our display elements
     WeatherData.prototype.setMeasuements = function (temp, humidity, pressure) {

@@ -2,18 +2,19 @@
 // Display View 1
 class CurrentConditionsDisplay implements IObserver, IDisplayElement {
     
+    weatherData: WeatherData;
     private temperature: number;
     private humidity: number;
     private pressure: number;
     
     constructor(weatherData: WeatherData){
-    
+        this.weatherData = weatherData;
     }
     
-    public update(temp: number, humidity: number, pressure: number): void{
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    public update(): void{
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     }
     
@@ -25,18 +26,19 @@ class CurrentConditionsDisplay implements IObserver, IDisplayElement {
 // Display View 2
 class StatisticsDisplay implements IObserver, IDisplayElement {
     
+    weatherData: WeatherData;
     private temperature: number;
     private humidity: number;
     private pressure: number;
     
     constructor(weatherData: WeatherData){
-    
+      this.weatherData = weatherData;
     }
     
-    public update(temp: number, humidity: number, pressure: number): void{
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    public update(): void{
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     }
     
@@ -48,18 +50,19 @@ class StatisticsDisplay implements IObserver, IDisplayElement {
 // Display View 3
 class ForecastDisplay implements IObserver, IDisplayElement {
     
+    weatherData: WeatherData;
     private temperature: number;
     private humidity: number;
     private pressure: number;
     
     constructor(weatherData: WeatherData){
-    
+        this.weatherData = weatherData;
     }
     
-    public update(temp: number, humidity: number, pressure: number): void{
-        this.temperature = temp;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    public update(): void{
+        this.temperature = this.weatherData.getTemp();
+        this.humidity = this.weatherData.getHumidity();
+        this.pressure = this.weatherData.getPressure();
         this.display();
     }
     

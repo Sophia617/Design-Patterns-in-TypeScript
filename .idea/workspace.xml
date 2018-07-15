@@ -18,16 +18,16 @@
         <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="229" lean-forward="true" selection-start-line="5" selection-start-column="229" selection-end-line="5" selection-end-column="229" />
+              <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weatherStationApp.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="weatherStationApp.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherStationApp.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file leaf-file-name="subject.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/subject.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="267">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/observers.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -53,17 +53,17 @@
       <file leaf-file-name="display.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/display.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="observerDisplay.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/observerDisplay.ts">
+      <file leaf-file-name="concreteObservers.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/concreteObservers.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="555">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -101,12 +101,13 @@
         <option value="$PROJECT_DIR$/01_The_Stratege_Pattern/ts/app.ts" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherData.ts" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/object.ts" />
-        <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/observers.ts" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/index.html" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/display.ts" />
-        <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/subject.ts" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/observerDisplay.ts" />
         <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherStationApp.ts" />
+        <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/subject.ts" />
+        <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/observers.ts" />
+        <option value="$PROJECT_DIR$/02_The_Observer_Pattern/ts/concreteObservers.ts" />
       </list>
     </option>
   </component>
@@ -120,8 +121,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="126" />
+    <option name="x" value="51" />
+    <option name="y" value="62" />
     <option name="width" value="1326" />
     <option name="height" value="658" />
   </component>
@@ -200,19 +201,19 @@
       <workItem from="1531314913064" duration="1699000" />
       <workItem from="1531536654499" duration="701000" />
       <workItem from="1531537512459" duration="6626000" />
-      <workItem from="1531547646051" duration="6994000" />
+      <workItem from="1531547646051" duration="10489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16697000" />
+    <option name="totallyTimeSpent" value="20192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="51" y="62" width="1326" height="658" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22832981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827586" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -361,45 +362,45 @@
     <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherData.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/subject.ts">
+    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherStationApp.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/observers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/display.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="195">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="229" lean-forward="true" selection-start-line="5" selection-start-column="229" selection-end-line="5" selection-end-column="229" />
+          <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/observerDisplay.ts">
+    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/subject.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="267">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/weatherStationApp.ts">
+    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/observers.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/display.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_The_Observer_Pattern/ts/concreteObservers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
         </state>
       </provider>
     </entry>
