@@ -4,9 +4,6 @@ var Beverage = /** @class */ (function () {
     Beverage.prototype.getDescription = function () {
         return this.description;
     };
-    Beverage.prototype.cost = function () {
-        return 0;
-    };
     return Beverage;
 }());
 //# sourceMappingURL=Beverage.js.map

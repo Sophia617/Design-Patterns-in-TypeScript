@@ -4,8 +4,6 @@ abstract class Beverage {
     public getDescription(): string{
         return this.description
     }
-    public cost(): number {
-        return 0;
-    }
+    public abstract cost(): number;
 }
 
